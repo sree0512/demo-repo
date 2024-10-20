@@ -1,0 +1,8 @@
+Create vpc
+create coustom route table
+create a subnet - assign to route table
+associate subnet with route table
+Create security group to allow port 22, 80 443
+create a network interface with an ip in the subnetthat was created in step 4
+Assign an elastic IP to the network interface created in step 7
+create Ubuntu server and install/enable apache2
